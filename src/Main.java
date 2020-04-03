@@ -14,12 +14,19 @@ public class Main {
     }
     public static void main(String[] args) {
         BubbleSort bs = new BubbleSort();
-        int arr[] =  InputArray();
+        int arr[] = InputArray();
         bs.bubbleSort(arr);
         bs.printArray(arr);
         int arr1[] = InputArray();
         InsertionSort is = new InsertionSort();
         is.sort(arr1);
         is.printArray(arr1);
+
+        SelectionSort ss = new SelectionSort();
+        int arr2[] = InputArray();
+        ss.sort(arr2);
+        ss.printArray(arr2);
+
+
     }
 }
