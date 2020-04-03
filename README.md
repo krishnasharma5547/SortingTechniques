@@ -5,7 +5,7 @@
 
 2. insertion sort
 
-3. selection sort4.
+3. selection sort
 
 4. Quick sort 
 
